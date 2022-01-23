@@ -1,0 +1,93 @@
+:root {
+    --wix-font-stack: Madefor,"Helvetica Neue",Helvetica,Arial,"メイリオ","meiryo","ヒラギノ角ゴ pro w3","hiragino kaku gothic pro",sans-serif;
+    --wix-font-weight-regular: 400;
+    --wix-font-weight-bold: 700;
+    --wix-font-weight-xbold: 800;
+}
+body{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+}
+.main-titles{
+    font-family: var(--wix-font-stack);
+    color:white;
+    text-align: center;
+    padding: 30px;
+    font-weight:var(--wix-font-weight-regular);
+}
+.main-title{
+    justify-content: center;
+    font-size: 72px;
+    /* font-weight: 600; */
+    margin:auto;
+}
+.description{
+    font-size: 20px;
+}
+.search-box{
+    position:relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+.search-box i {
+    position:absolute;
+    padding-left: 600px;
+
+}
+#search-box{
+    width: 600px;
+    height: 60px;
+    border-radius: 40px;
+    padding-right: 23px;
+    padding-left: 57px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size:large;
+    color:black;
+}
+.sticky-header{
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+    /* justify-content: center; */
+    display: flex;
+    margin: 10px;
+
+}xbold
+input ::placeholder{
+    color: black;
+    font-size: large;
+
+}
+.logo-img{
+    width:90px;
+}
+.menu{
+    font-family: Madefor, "Helvetica Neue", Helvetica, Arial, メイリオ, Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro W3", "Hiragino Kaku Gothic Pro", sans-serif !important;
+
+}
+.nav-bar{
+    display: flex;
+}
+ul.menu{
+    font-family: Madefor, "Helvetica Neue", Helvetica, Arial, メイリオ, Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro W3", "Hiragino Kaku Gothic Pro", sans-serif !important;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;  
+}
+li {
+    padding:20px;
+    float:left;
+}
