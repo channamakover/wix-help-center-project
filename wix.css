@@ -102,6 +102,7 @@ li {
     border: 1px solid gray;
     padding:20px;
     font-size: 30px;
+    font-weight: 300;
 }
 .grid-container > div:nth-child(1n){
     border-top:0px;
@@ -121,6 +122,7 @@ li {
 .grid-container > div > h1{
     font-family: var(--wix-font-stack);
     font-size:20px;
+    font-weight: 400;
 }
 .grid-container >div >p{
     font-family: var(--wix-font-stack);
@@ -130,4 +132,21 @@ li {
     content :">  ";
     font-weight: var(--wix-font-weight-bold);
 
+}
+.show-more-btn{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+    border-color: black;
+    border: solid 1px;
+    font-family: var(--wix-font-stack);
+}
+.show-more-btn > i {
+    margin:0px;
+    color: black;
 }
