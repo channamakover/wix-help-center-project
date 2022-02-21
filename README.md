@@ -1,5 +1,5 @@
 # wix-help-center-project
 
 
-- [] unchecked checkbox
+- [ ] unchecked checkbox
 - [X] checked checkbox
